@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'td_hater'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_tdhater_domain_model_user">User</label>
+			<label index="tx_tdhater_domain_model_user.name">Name</label>
+			<label index="tx_tdhater_domain_model_user.hate_score">Hate Score</label>
+			<label index="tx_tdhater_domain_model_user.hate_payed">Hate Payed</label>
+			<label index="tx_tdhater_domain_model_user.bwg_score">Bwg Score</label>
+			<label index="tx_tdhater_domain_model_user.bwg_payed">Bwg Payed</label>
+		</languageKey>
+	</data>
+</T3locallang>

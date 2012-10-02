@@ -1,0 +1,14 @@
+plugin.tx_tdhater {
+	view {
+		# cat=plugin.tx_tdhater/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:td_hater/Resources/Private/Templates/
+		# cat=plugin.tx_tdhater/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:td_hater/Resources/Private/Partials/
+		# cat=plugin.tx_tdhater/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:td_hater/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_tdhater//a; type=int+; label=Default storage PID
+		storagePid = 
+	}
+}
